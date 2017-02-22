@@ -12,7 +12,7 @@ make_install() {
 cd /tmp \
     && rm -rf ./git-extras \
     && echo "Setting up 'git-extras'...." \
-    && git clone https://github.com/tj/git-extras.git &> /dev/null \
+    && git clone https://github.com/iampeterbanjo/git-extras.git &> /dev/null \
     && cd git-extras \
     && git checkout \
         $(git describe --tags $(git rev-list --tags --max-count=1)) \
